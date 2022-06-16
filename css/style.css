@@ -1,0 +1,488 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article>*+* {
+	margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+html {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Lato, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {}
+
+.container {
+	justify-content: center;
+}
+
+header {
+	background-color: #ffbfbf;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1230px;
+	margin: auto;
+	padding: 20px 0 200px 0;
+}
+
+.navBar__group1 {
+	display: flex;
+	align-items: center;
+}
+
+.logo {}
+
+.navBar__menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navBar__text {
+	margin: 0 10px;
+	padding: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #1c1b1b;
+	font-weight: 800;
+}
+
+.navBar__logo {
+	padding-right: 40px;
+}
+
+.navBar__buttons {
+	display: flex;
+	text-align: center;
+}
+
+.button {}
+
+.consultation__button {
+	height: 52px;
+	width: 206px;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.button--gradient {
+	background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+	height: 52px;
+	width: 206px;
+	border: none;
+	text-align: center;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 5px;
+}
+
+.button--gradient:hover {
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+}
+
+.log-in__button {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	background-color: rgba(28, 28, 28, 0);
+	border: none;
+	color: #1c1b1b;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.log-in__img {
+	max-width: 17px;
+	max-height: 17px;
+	padding-right: 4px;
+}
+
+.header__body {
+	max-width: 1230px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-bottom: 189px;
+}
+
+.body__group1 {}
+
+.body__video {}
+
+.body__a {
+	display: flex;
+	align-items: center;
+}
+
+.body__play {}
+
+.body__p {}
+
+.body__h1 {
+	font-size: 54px;
+	color: #1c1b1b;
+	font-weight: 800;
+	padding: 24px 0 60px 0;
+}
+
+.body__buttons {}
+
+.button {}
+
+.button--clear {
+	width: 148px;
+	height: 52px;
+	border-color: #EB3349;
+	box-shadow: none;
+	color: #EB3349;
+	border-radius: 5px;
+	background-color: rgba(28, 28, 28, 0);
+	margin-right: 24px;
+}
+
+.button--clear:hover {
+	background-color: #EB3349;
+	color: white;
+	border: none;
+	transition: .5s;
+}
+
+.explore__button {}
+
+.body__group2 {}
+
+.body__illustration {}
+
+.header__stats {
+	max-width: 1230px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding-bottom: 80px;
+}
+
+.stats__block {
+	display: flex;
+	align-items: center;
+	position: relative;
+
+}
+
+.stats__block:first-child::before {
+	display: none;
+}
+
+.stats__block::before {
+	content: '·';
+	color: #F45C43;
+	font-size: 100px;
+	left: -70px;
+	position: absolute;
+}
+
+.numbers {
+	font-size: 54px;
+}
+
+.stats__numbers {
+	color: #1c1b1b;
+	font-weight: 800;
+	padding-right: 12px;
+}
+
+.stats__text {
+	padding-top: 20px;
+	font-size: 17px;
+	color-scheme: #1c1b1b;
+	font-style: 900;
+
+}
+
+.main__body {
+	max-width: 1230px;
+	margin: auto;
+}
+
+.main__about {
+	display: flex;
+	padding: 180px 0;
+}
+
+.about_girl {}
+
+.about__group1 {
+	padding-left: 135px;
+}
+
+.about__text {
+	color: #1c1b1b;
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.about__header {
+	color: #1c1b1b;
+	font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 40px;
+}
+
+.about__ul {}
+
+.about__check {
+	align-self: flex-start;
+	padding: 5px 5px 0 0;
+}
+
+.about__list {
+	list-style: none;
+	background: url(img/about__check.svg) no-repeat;
+	background-position: 0 50%;
+	color: #1c1b1b;
+	padding: 6px 0 6px 24px;
+	display: flex;
+	align-self: flex-start;
+	font-size: 16px;
+	display: flex;
+}
+
+.about__list:first-child {
+	background-position: 0 25%;
+}
+
+.about__button {
+	margin-top: 16px;
+	width: 161px;
+}
+
+.main__courses {}
+
+.courses__header__group {
+	display: grid;
+	justify-content: space-between;
+
+}
+
+.courses__text {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-size: 16px;
+	color: #1c1b1b;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.courses__header {
+	font-size: 46px;
+	font-weight: 700;
+}
+
+.button {}
+
+.clear__button {}
+
+.courses__button {
+	margin: auto;
+	width: 202px;
+	font-size: 16px;
+}
+
+.courses__cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 45px 0 165px 0;
+}
+
+.courses__card {
+	max-width: 600px;
+	max-height: 214px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+	margin: 15px 0 15px 0;
+}
+
+.card--marketing {}
+
+.card__img {
+	max-height: 200px;
+}
+
+.courses__card__group {
+	padding-left: 32px;
+	border: solid 1px;
+	border-color: gainsboro;
+	border-radius: 3px;
+	border-left: none;
+
+}
+
+.card__header {
+	display: inline-block;
+	padding: 1px 8px;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	margin: 33px 0 21px 0;
+	border-radius: 3px;
+}
+
+.card__header--marketing {
+	background-color: #00a868;
+}
+
+.card__text {
+	color: #1c1b1b;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+
+.card__group--name--prise {
+	display: flex;
+	margin: 20px 0 12px 0;
+	font-size: 18px;
+}
+
+.card__name::before {
+	content: '|';
+	display: block;
+	color: gainsboro;
+	position: absolute;
+	left: 0;
+	margin: auto;
+}
+
+.card__prise {
+	color: #EB3349;
+	font-weight: 700;
+	padding-right: 8px;
+}
+
+.card__name {
+	color: gainsboro;
+	font-weight: 400;
+	position: relative;
+	padding-left: 10px;
+}
+
+.courses__card__group2 {
+	padding-left: 32px;
+	border: solid 1px;
+	border-color: gainsboro;
+	border-radius: 3px;
+	border-left: none;
+}
+
+.card__header--management {
+	background-color: #63acff;
+}
+
+.courses__card__group3 {
+	padding-left: 32px;
+	border: solid 1px;
+	border-color: gainsboro;
+	border-radius: 3px;
+	border-left: none;
+}
+
+.card__header--hr {
+	background-color: orange;
+}
+
+.courses__card__group4 {
+	padding-left: 32px;
+	border: solid 1px;
+	border-color: gainsboro;
+	border-radius: 3px;
+	border-left: none;
+}
+
+.card__header--design {
+	background-color: #F52F6E;
+}
