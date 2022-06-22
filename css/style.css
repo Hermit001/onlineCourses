@@ -84,7 +84,7 @@ html {
 body {}
 
 .container {
-	justify-content: center;
+	margin: auto;
 }
 
 header {
@@ -162,18 +162,23 @@ a {
 	text-decoration: none;
 }
 
-.log-in__button {
+.button--double {
 	display: flex;
-	align-items: center;
-	margin: auto;
+}
+
+.button__invis {
+
 	background-color: rgba(28, 28, 28, 0);
 	border: none;
 	color: #1c1b1b;
 	font-weight: 500;
+}
+
+.log-in__button {
 	margin-left: 10px;
 }
 
-.log-in__img {
+.double__img {
 	max-width: 17px;
 	max-height: 17px;
 	padding-right: 4px;
@@ -214,16 +219,16 @@ a {
 .button--clear {
 	width: 148px;
 	height: 52px;
-	border-color: #EB3349;
+	border-color: #F45C43;
 	box-shadow: none;
-	color: #EB3349;
+	color: #F45C43;
 	border-radius: 5px;
 	background-color: rgba(28, 28, 28, 0);
 	margin-right: 24px;
 }
 
 .button--clear:hover {
-	background-color: #EB3349;
+	background-color: #F45C43;
 	color: white;
 	border: none;
 	transition: .5s;
@@ -296,17 +301,17 @@ a {
 	padding-left: 135px;
 }
 
-.about__text {
+.text-small {
 	color: #1c1b1b;
 	font-size: 16px;
-	font-weight: 800;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
-.about__header {
+.header__text {
 	color: #1c1b1b;
-	font-size: 40px;
-	font-weight: 800;
+	font-size: 46px;
+	font-weight: 700;
 	padding-bottom: 40px;
 }
 
@@ -351,16 +356,9 @@ a {
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 2;
-	font-size: 16px;
-	color: #1c1b1b;
-	font-weight: 700;
-	text-transform: uppercase;
 }
 
-.courses__header {
-	font-size: 46px;
-	font-weight: 700;
-}
+.courses__header {}
 
 .button {}
 
@@ -485,4 +483,346 @@ a {
 
 .card__header--design {
 	background-color: #F52F6E;
+}
+
+.main__benefits {}
+
+.text-small-center {
+	display: flex;
+	justify-content: center;
+}
+
+.header__text-center {
+	display: flex;
+	justify-content: center;
+	padding: 8px 0 60px 0;
+}
+
+.benefits__buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.benefits__button-width {
+	width: 307px;
+	height: 46px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.benefits__body {
+	display: flex;
+	align-items: center;
+	padding: 60px 0 120px;
+}
+
+.benefits__group1 {
+	padding-right: 127px;
+}
+
+.benefits__h3 {
+	font-size: 32px;
+	font-weight: 700;
+	padding-bottom: 24px;
+}
+
+.benefits__text {
+	font-size: 16px;
+}
+
+.benefits__img {}
+
+.main-beige {
+	background-color: beige;
+}
+
+.text-small-center {
+	padding-top: 80px;
+}
+
+.text-small {}
+
+.header__text-center {
+	padding-bottom: 48px;
+}
+
+.header__text {}
+
+.event__card {
+	max-width: 1230px;
+	height: 126px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 0 40px 0;
+	margin: 24px 0;
+	border-radius: 10px;
+}
+
+.event__card:hover {
+	box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+	transition: .3s;
+}
+
+.event__group1 {}
+
+.event__group1 {
+	padding: 0 0 0 80px;
+	position: relative;
+	width: 180px;
+}
+
+.event__group1:first-child::before {}
+
+.event__group1::before {
+	color: #F45C43;
+	font-size: 48px;
+	font-weight: 600;
+	left: 10px;
+	bottom: -11px;
+	position: absolute;
+}
+
+.event__card__group1::before {
+	content: '05';
+}
+
+.event__date {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.event__time {
+	color: gainsboro;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.event__group2 {
+	margin: 0 26px 0;
+	width: 758px;
+}
+
+.event__text {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.event__class {
+	color: gainsboro;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.event__group3 {
+	padding-bottom: 22px;
+}
+
+.event__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 44px;
+	width: 136px;
+	font-size: 16px;
+	font-weight: 600;
+	border: solid 1px;
+}
+
+
+.event__card2__group1::before {
+	content: '24';
+}
+
+.event__card3__group1::before {
+	content: '16';
+}
+
+.footer-bigue {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 48px 0 80px;
+}
+
+.footer__text-bigue {
+	padding: 0 20px;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.footer__button-bigue {
+	margin: 0 20px;
+	width: 214px;
+	height: 52px;
+}
+
+.certificate__body {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding: 120px 0 0 50px;
+	max-width: 1330px;
+}
+
+.certificate__group1 {}
+
+.certificate__text {
+	color: gainsboro;
+	font-weight: 700;
+}
+
+.certificate__img__group {
+	display: flex;
+	padding-top: 32px;
+}
+
+.certificate__img {
+	padding: 0 20px;
+}
+
+.certificate__img:first-child {
+	padding-left: 0px;
+}
+
+.certificate__group2 {}
+
+.certificate__main__img {
+	padding-left: 20px;
+}
+
+.body-gray {
+	background-color: rgba(220, 220, 220, 0.4);
+	padding-top: 120px;
+}
+
+.team__body {
+	max-width: 1230px;
+	margin: auto;
+}
+
+.team__header {
+	bottom: 15px;
+	position: absolute;
+	top: 20px;
+}
+
+.team__text {
+	position: absolute;
+	top: 0px;
+}
+
+.team__carousel {
+	position: relative;
+	padding: 150px 0;
+}
+
+.team__carousel img {
+	width: 285px;
+	height: 340px;
+	margin: 0 10px 0;
+	background-color: #e8b707;
+	display: block;
+}
+
+.arrow {
+	position: absolute;
+	top: 0px;
+	padding: 20px 15px;
+	font-size: 24px;
+	line-height: 0px;
+	background: rgba(1, 1, 1, .0);
+	border: 1px;
+	color: #444;
+	display: block;
+	top: 40px;
+}
+
+.arrow:focus {
+	outline: none;
+}
+
+.arrow:hover {
+	height: 48px;
+	width: 48px;
+	color: white;
+	background: red;
+	border-radius: 200px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.prev {
+	right: 80px;
+
+}
+
+.next {
+	right: 0px;
+}
+
+.team__name {
+	padding: 16px 0 4px 0;
+	color: #1c1b1b;
+	font-size: 20px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+}
+
+.prof {
+	color: #1c1b1b;
+	font-size: 206px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery {
+	width: 1230px;
+	height: 420px;
+	overflow: hidden;
+}
+
+.gallery ul {
+	height: 320px;
+	width: 9999px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	transition: margin-left 250ms;
+
+	font-size: 0;
+}
+
+.gallery li {
+	display: inline-block;
+}
+
+.team__img {
+	border-radius: 5px;
+	background-color: #e8b707;
+	padding: 20px 20px 0;
+}
+
+.team__img:hover {
+	box-shadow: 0px -100px 50px -40px rgba(0, 0, 0, 0.7) inset;
+	transition: 0.3s;
+}
+
+.team__name {
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.prof {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: 300;
 }
