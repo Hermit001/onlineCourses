@@ -1,0 +1,143 @@
+.teacher__header {
+	color: #FF3F3A;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 42px;
+}
+
+.teacher__header__text {
+	padding-bottom: 150px;
+}
+
+.teacher__course {
+	display: flex;
+	justify-content: space-between;
+	padding: 120px 0 118px 0;
+}
+
+.teacher__course__group1 {
+	max-width: 600px;
+}
+
+.header__text {}
+
+.teacher__course__text {
+	font-size: 16px;
+	line-height: 25px;
+	color: #2C2C2C;
+	margin-bottom: 48px;
+}
+
+.teacher__h3 {
+	font-size: 28px;
+	font-size: 700;
+	margin-bottom: 24px;
+}
+
+.about__ul {}
+
+.teacher__about__list {
+	color: #2C2C2C;
+}
+
+.teacher__about__list:first-child {
+	background-position: 0 50%;
+}
+
+.about__list {}
+
+.teacher__course__group2 {
+	max-width: 495px;
+	border: #E5E8ED solid 1px;
+	border-radius: 4px;
+}
+
+.teacher__group2-border {
+	padding: 40px 32px;
+}
+
+.teacher__h4 {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.teacher__info-red {
+	font-size: 24px;
+	font-weight: 700;
+	color: #FF3F3A;
+	margin-bottom: 8px;
+}
+
+.teacher__date__text {
+	color: #787A80;
+	margin-bottom: 42px;
+}
+
+.teacher__course__button {
+	width: 431px;
+	margin: 0;
+}
+
+.teacher {
+	display: flex;
+	justify-content: space-between;
+}
+
+.teacher__codyFisher {
+	background-color: #e8b707;
+	background-size: 20px;
+	padding: 0px 18px;
+}
+
+.teacher__group {
+	max-width: 600px;
+}
+
+.text-small {}
+
+.courses__text {}
+
+.teacher__courses__header {
+	padding-bottom: 16px;
+}
+
+.courses__header {}
+
+.teacher__prof {
+	color: #7A7C82;
+	font-size: 20px;
+	margin-bottom: 32px;
+}
+
+.teacher__stats {
+	margin-bottom: 4px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #2C2C2C;
+	padding-left: 25px;
+}
+
+.teacher__rate {
+
+
+	background: url(../img/benefits__button-star.svg) no-repeat;
+	background-position: 0px 5px;
+}
+
+.teacher__courses {
+	background: url(../img/play.svg) no-repeat;
+	background-position: 0px 5px;
+}
+
+.teacher__students {
+	background: url(../img/contact.svg) no-repeat;
+	background-position: 0px 5px;
+}
+
+.teacher__text {
+	color: #424551;
+	padding: 32px 0 40px;
+}
