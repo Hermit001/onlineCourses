@@ -31,15 +31,6 @@ carousel.querySelector('.next').onclick = function () {
 	list.style.marginLeft = position + 'px';
 };
 
-$(function () {
-	$(window).scroll(function () {
-		if ($(this).scrollTop() != 0) {
-			$('#goTop').fadeIn();
-		} else {
-			$('#goTop').fadeOut();
-		}
-	});
-	$('#goTop').click(function () {
-		$('body,html').animate({ scrollTop: 0 }, 700);
-	});
+$('#goTop').click(function () {
+	$('body,html').animate({ scrollTop: 0 }, 700);
 });
