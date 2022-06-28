@@ -84,6 +84,7 @@
 .teacher {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 180px;
 }
 
 .teacher__codyFisher {
@@ -141,3 +142,217 @@
 	color: #424551;
 	padding: 32px 0 40px;
 }
+
+.teacher__steps {
+	padding-bottom: 180px;
+}
+
+.teacher__steps__group {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.steps__header {
+	border-top: 2px dashed #D7DADD;
+	font-size: 19px;
+	font-weight: 700;
+	color: #1E212C;
+	padding-top: 16px;
+	margin-bottom: 8px;
+}
+
+.steps__text {
+	font-size: 16px;
+	color: #787A80;
+}
+
+.teacher__step {
+	width: 285px;
+	height: 192px;
+	border: none;
+	color: #D7DADD;
+	font-size: 46px;
+	font-weight: 700;
+	padding-top: 16px;
+}
+
+
+
+.teacher__step1::before {
+	content: '01';
+}
+
+.teacher__step1:hover {}
+
+.teacher__step:hover {
+	color: #FF3F3A;
+	transition: .5s;
+}
+
+.teacher__step2::before {
+	content: '02';
+
+}
+
+.teacher__step3::before {
+	content: '03';
+}
+
+.teacher__step4::before {
+	content: '04';
+}
+
+.teacher__discount {}
+
+.dicount__beige {
+	border-radius: 4px;
+	margin-bottom: 180px;
+}
+
+.discount__header {
+	font-size: 32px;
+	font-weight: 700;
+	color: #1E212C;
+	padding: 48px 0 32px 60px;
+}
+
+.discount__groups {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 0 60px 48px 60px;
+}
+
+.discount__group {}
+
+.discount__text {
+	color: #424551;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.discount__input {
+	border: none;
+	width: 291px;
+	height: 44px;
+	border: #D7DADD solid 1px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	outline: none;
+	color: #9A9CA5;
+	padding-left: 16px;
+}
+
+.discount__button {
+	width: 166px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.teacher__who {
+	display: flex;
+	justify-content: space-between;
+}
+
+.who__group1 {
+	width: 495px;
+}
+
+.who__group2 {
+	width: 520px;
+	height: 270px;
+}
+
+.who__about__list:first-child {
+	background-position: 0 22%;
+}
+
+.teacher__program {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 71px 0 120px;
+}
+
+.program__group1 {}
+
+.program__lessons {
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 24px;
+}
+
+.programm__lesson1 {}
+
+.program__lessons__red {
+	color: #FF3F3A;
+}
+
+.programm__lesson2 {}
+
+.programm__lesson3 {}
+
+.programm__lesson4 {}
+
+.programm__lesson5 {}
+
+.programm__lesson6 {}
+
+.programm__lesson7 {}
+
+.programm__lesson8 {}
+
+.program__img {}
+
+
+.teacher__register {
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0 100px;
+}
+
+.teacher__register__img {}
+
+.register__discount__groups a {
+	padding-top: 26px;
+}
+
+.register__group {}
+
+.register__discoutn__input {
+	width: 495px;
+	height: 52px;
+	margin-bottom: 24px;
+}
+
+.register__discoutn__input:last-child {
+	margin-bottom: 40px;
+}
+
+.register__discount__button {
+	width: 495px;
+	height: 52px;
+
+}
+
+.register__discount__groups {}
+
+
+/*
+.teacher__gallery {
+	display: flex;
+}
+
+.teacher__courses__card {
+	display: inline-block;
+	width: 600px;
+	height: 214px;
+}
+
+.teacher__courses__card__group {
+	display: inline-block;
+}
+*/
