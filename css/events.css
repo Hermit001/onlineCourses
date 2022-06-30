@@ -1,0 +1,70 @@
+.events {
+	padding-bottom: 180px;
+}
+
+.events__toolbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.toolbar__group1 {
+	display: flex;
+}
+
+.toolbar__category {
+	padding-right: 100px;
+}
+
+.toolbar__text {
+	padding-right: 12px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #424551;
+}
+
+.toolbar__select {
+	padding: 8px;
+	border: none;
+	border: #D7DADD 1px solid;
+	border-radius: 4px;
+}
+
+.toolbar__sort {
+	display: flex;
+	align-items: center;
+}
+
+.search__courses {}
+
+.events__card {
+	border: #E5E8ED 1px solid;
+}
+
+.events__card:hover {
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+	transition: .3s;
+}
+
+.event__card4__group1::before {
+	content: '10';
+}
+
+.event__card5__group1::before {
+	content: '27';
+}
+
+.event__card6__group1::before {
+	content: '15';
+}
+
+.event__card7__group1::before {
+	content: '02';
+}
+
+.event__card8__group1::before {
+	content: '29';
+}
+
+.event__card9__group1::before {
+	content: '18';
+}
