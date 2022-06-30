@@ -266,7 +266,6 @@ a {
 	display: flex;
 	align-items: center;
 	position: relative;
-
 }
 
 .stats__block:first-child::before {
@@ -284,15 +283,12 @@ a {
 
 .numbers {
 	font-size: 54px;
-}
-
-.stats__numbers {
-	font-weight: 800;
-	padding-right: 12px;
+	font-weight: 700;
+	padding-right: 12px
 }
 
 .stats__text {
-	padding-top: 20px;
+	padding-top: 6px;
 	font-size: 17px;
 	font-style: 900;
 
@@ -707,12 +703,13 @@ a {
 
 .body-gray {
 	background-color: rgba(220, 220, 220, 0.4);
-	padding-top: 120px;
+
 }
 
 .team__body {
 	max-width: 1230px;
 	margin: auto;
+	padding-top: 120px;
 }
 
 .team__header {
@@ -1173,6 +1170,7 @@ a {
 	border-radius: 4px;
 	background-color: #54565F;
 	outline: none;
+	padding-left: 12px;
 	color: #A3A4A8;
 	background: url(../img/footer__arrow.svg) no-repeat;
 	background-position: 255px 13px;
