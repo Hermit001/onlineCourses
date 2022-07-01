@@ -1,0 +1,153 @@
+.contactInfo {
+	padding-bottom: 180px;
+}
+
+.contactInfo__group {
+	padding-bottom: 2px;
+}
+
+.contact__text {
+	font-size: 14px;
+	font-weight: 700;
+	color: #787A80;
+	padding-left: 30px;
+	padding-bottom: 2px;
+}
+
+.contact__text-email {
+	background: url(../images/contactsImg/chat.svg) no-repeat;
+}
+
+.contact__text-phone {
+	background: url(../images/contactsImg/phone.svg) no-repeat;
+	background-position: 0px -1px;
+}
+
+.contact__text-address {
+	background: url(../images/contactsImg/pin.svg) no-repeat;
+}
+
+.contact {
+	font-size: 18px;
+	color: #1E212C;
+	padding-left: 30px;
+	padding-bottom: 24px;
+}
+
+.follow__p {
+	color: #1E212C;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 24px 0 24px;
+
+}
+
+.contacts__form {
+	display: flex;
+	align-items: center;
+	padding-bottom: 180px;
+}
+
+.contacts__form img {
+	padding-right: 105px;
+}
+
+.contacts__form__group {
+	display: grid;
+}
+
+.contacts__form__group .contact__input {
+	width: 340px;
+	margin-bottom: 24px;
+}
+
+.contacts__form__group button {
+	width: 100%;
+}
+
+.contacts__form__group p {
+	display: flex;
+	width: 315px;
+}
+
+.contacts__form__group .contact__input-width {
+	width: 705px;
+	margin-bottom: 24px;
+}
+
+.contacts__form {}
+
+.contacts__form__group {}
+
+.contacts__form__group .text-small {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.contacts__form__group.header__text {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.discount__group1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.discount__group2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.discount__group3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+.discount__group4 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 5;
+}
+
+.discount__group5 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 7;
+}
+
+.discount__group6 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+
+.discount__group7 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+
+.discount__text {}
+
+.contact__input {
+	width: 340px;
+}
+
+.contact__input-width {
+	width: 705px;
+}

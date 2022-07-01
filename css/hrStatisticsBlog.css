@@ -1,0 +1,186 @@
+.carousel__text {
+	font-size: 20px;
+	background: url(../img/braces.svg) no-repeat;
+	background-position: 0 0;
+	margin: 0 0 24px 0;
+	padding-left: 56px;
+	padding-right: 41px;
+}
+
+.hrBlog__body {
+	padding: 80px 0 120px;
+	display: grid;
+}
+
+.hrBlog__article {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	padding-right: 78px;
+}
+
+.blog__sideBar {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.hrBlog__article img {
+	margin: 40px 0 60px;
+}
+
+.hrBlog__article ul {
+	padding: 0 0 24px 0;
+}
+
+.body__meta {}
+
+.blog__li-article {
+	color: #424551;
+	background: url(../images/hrStatisticsBlogImg/article.svg) no-repeat;
+	background-position: 0px 21px;
+	padding-left: 20px;
+}
+
+.blog__li-red {
+	font-weight: 700;
+	color: #FF3F3A;
+}
+
+
+.blog__meta__share__group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blog__share__group {}
+
+.share__p {
+	padding-right: 12px;
+	color: 1E212C;
+	font-weight: 700;
+}
+
+.blog__h4 {
+	font-size: 20px;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.blog__post__text {
+	font-size: 16px;
+	color: #424551;
+}
+
+.blog__carousel__text {
+	margin: 48px 0;
+}
+
+.about__list__blog li:first-child {
+	background-position: 0 50%;
+}
+
+.hrBlog__body__footer {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hrBlog__tags {
+	display: flex;
+	align-items: center;
+}
+
+.tag {
+	padding: 6px 16px;
+	margin-right: 12px;
+	color: #787A80;
+	font-weight: 700;
+	border: #D7DADD 1px solid;
+	border-radius: 4px;
+}
+
+.tag:hover {
+	color: #fff;
+	background-color: #FF3F3A;
+	cursor: pointer;
+}
+
+
+
+.blog__sideBar {}
+
+.blog__sideBar .share__p {
+	padding-top: 60px;
+}
+
+.blog__sideBar .tag {
+	margin-bottom: 12px;
+}
+
+.blog__sideBar img {
+	padding-right: 20px;
+}
+
+.blog__search {
+	width: 342px;
+	height: 44px;
+	background-position: 310px 15px;
+	margin-bottom: 60px;
+}
+
+.sideBar__h3 {
+	font-weight: 700;
+	color: #1E212C;
+	padding-bottom: 24px;
+}
+
+.author__group1 {
+	display: flex;
+	padding-bottom: 44px;
+}
+
+.author__group2 {
+	display: inline-block;
+}
+
+.author__name {
+	font-size: 20px;
+	color: #424551;
+}
+
+.author__prof {
+	padding-top: 4px;
+	font-size: 14px;
+	color: #787A80;
+}
+
+.trending__group1 {
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 24px;
+}
+
+.trending__group1:last-child {
+	padding-bottom: 0px;
+}
+
+.trending__group2 {}
+
+.trending__group2 li {
+	padding-top: 0px;
+	background-position: 0px 5px;
+}
+
+.trending__text {
+	font-weight: 700;
+	color: #1E212C;
+}
+
+.share__p {}
+
+.hrBlog__tags {}
+
+.tag {}
