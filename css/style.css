@@ -205,7 +205,7 @@ a {
 }
 
 .body__p {
-	background: url(../img/header__buttonPlay.svg) no-repeat;
+	background: url(../images/indexImg/header__buttonPlay.svg) no-repeat;
 	padding: 30px 90px;
 	color: #1E212C;
 }
@@ -226,7 +226,7 @@ a {
 	box-shadow: none;
 	color: #FF3F3A;
 	border-radius: 5px;
-	background-color: rgba(28, 28, 28, 0);
+	background-color: rgba(0, 0, 0, 0);
 	margin-right: 24px;
 	cursor: pointer;
 }
@@ -242,7 +242,7 @@ a {
 .button--clear:hover {
 	background-color: #FF3F3A;
 	color: white;
-	border: none;
+	border-color: #FF3F3A;
 	transition: .5s;
 }
 
@@ -327,7 +327,7 @@ a {
 
 .about__list {
 	list-style: none;
-	background: url(../img/about__check.svg) no-repeat;
+	background: url(../images/indexImg/about__check.svg) no-repeat;
 	background-position: 0 50%;
 	color: #424551;
 	padding: 6px 0 6px 24px;
@@ -518,12 +518,11 @@ a {
 }
 
 .benefits__button-width:first-child {
-	color: #FF3F3A;
+	background-color: rgba(28, 28, 28, 0);
+	color: #FF4242;
 }
 
-.benefits__button-star:first-child:hover {
-	color: #fff;
-}
+.benefits__button-star:first-child:hover {}
 
 .benefits__body {
 	display: flex;
@@ -1003,13 +1002,13 @@ a {
 }
 
 .blog__li-date {
-	background: url(../img/calendar.svg) no-repeat;
+	background: url(../images/indexImg/calendar.svg) no-repeat;
 	background-position: 0px 21px;
 	padding-left: 25px;
 }
 
 .blog__li-time {
-	background: url(../img/clock.svg) no-repeat;
+	background: url(../images/indexImg/clock.svg) no-repeat;
 	background-position: 0px 21px;
 	padding-left: 25px;
 }
@@ -1138,13 +1137,13 @@ a {
 
 .footer__li-phone {
 	padding-left: 24px;
-	background: url(../img/phone.svg) no-repeat;
+	background: url(../images/indexImg/phone.svg) no-repeat;
 	background-position: 0px 6px;
 }
 
 .footer__li-mail {
 	padding-left: 24px;
-	background: url(../img/mail.svg) no-repeat;
+	background: url(../images/indexImg/mail.svg) no-repeat;
 	background-position: 0px 6px;
 
 }
@@ -1172,7 +1171,7 @@ a {
 	outline: none;
 	padding-left: 12px;
 	color: #A3A4A8;
-	background: url(../img/footer__arrow.svg) no-repeat;
+	background: url(../images/indexImg/footer__arrow.svg) no-repeat;
 	background-position: 255px 13px;
 }
 
@@ -1204,7 +1203,7 @@ footer {
 
 .made__p-heart {
 	padding: 0 25px;
-	background: url(../img/heart.svg) no-repeat;
+	background: url(../images/indexImg/heart.svg) no-repeat;
 	align-items: center;
 }
 
